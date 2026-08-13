@@ -1,4 +1,4 @@
-package com.microservices.limit_service.model;
+package com.microservices.limits_service.model;
 
 /**
  * InnerLimits

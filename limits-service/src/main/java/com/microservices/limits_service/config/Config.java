@@ -1,4 +1,4 @@
-package com.microservices.limit_service.config;
+package com.microservices.limits_service.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

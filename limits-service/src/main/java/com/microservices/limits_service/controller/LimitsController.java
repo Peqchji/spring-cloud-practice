@@ -1,9 +1,9 @@
-package com.microservices.limit_service.controller;
+package com.microservices.limits_service.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.microservices.limit_service.config.Config;
-import com.microservices.limit_service.model.Limits;
+import com.microservices.limits_service.config.Config;
+import com.microservices.limits_service.model.Limits;
 
 import reactor.core.publisher.Mono;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-@RequestMapping("/limit-service")
+@RequestMapping("/limits-service")
 public class LimitsController {
 
     private final Config config;

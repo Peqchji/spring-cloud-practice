@@ -1,10 +1,10 @@
-package com.microservices.limit_service;
+package com.microservices.limits_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-import com.microservices.limit_service.config.Config;
+import com.microservices.limits_service.config.Config;
 
 @SpringBootApplication
 @EnableConfigurationProperties(Config.class)
