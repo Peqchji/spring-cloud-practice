@@ -1,0 +1,149 @@
+<applications>
+  <versions__delta>1</versions__delta>
+  <apps__hashcode>UP_4_</apps__hashcode>
+  <application>
+    <name>API-GATEWAY</name>
+    <instance>
+      <instanceId>Peqch:api-gateway:8765</instanceId>
+      <hostName>Peqch</hostName>
+      <app>API-GATEWAY</app>
+      <ipAddr>192.168.1.40</ipAddr>
+      <status>UP</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8765</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1786693471712</registrationTimestamp>
+        <lastRenewalTimestamp>1786693711786</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>1786693471208</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata>
+        <management.port>8765</management.port>
+      </metadata>
+      <homePageUrl>http://Peqch:8765/</homePageUrl>
+      <statusPageUrl>http://Peqch:8765/actuator/info</statusPageUrl>
+      <healthCheckUrl>http://Peqch:8765/actuator/health</healthCheckUrl>
+      <vipAddress>api-gateway</vipAddress>
+      <secureVipAddress>api-gateway</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1786693471712</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1786693471197</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+  </application>
+  <application>
+    <name>CURRENCY-COVERSION</name>
+    <instance>
+      <instanceId>Peqch:currency-coversion:8100</instanceId>
+      <hostName>Peqch</hostName>
+      <app>CURRENCY-COVERSION</app>
+      <ipAddr>192.168.1.40</ipAddr>
+      <status>UP</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8100</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1786689842054</registrationTimestamp>
+        <lastRenewalTimestamp>1786693713704</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>1786689841546</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata>
+        <management.port>8100</management.port>
+      </metadata>
+      <homePageUrl>http://Peqch:8100/</homePageUrl>
+      <statusPageUrl>http://Peqch:8100/actuator/info</statusPageUrl>
+      <healthCheckUrl>http://Peqch:8100/actuator/health</healthCheckUrl>
+      <vipAddress>currency-coversion</vipAddress>
+      <secureVipAddress>currency-coversion</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1786689842054</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1786689841508</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+  </application>
+  <application>
+    <name>CURRENCY-EXCHANGE</name>
+    <instance>
+      <instanceId>Peqch:currency-exchange:8000</instanceId>
+      <hostName>Peqch</hostName>
+      <app>CURRENCY-EXCHANGE</app>
+      <ipAddr>192.168.1.40</ipAddr>
+      <status>UP</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8000</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1786689830098</registrationTimestamp>
+        <lastRenewalTimestamp>1786693701889</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>1786689829591</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata>
+        <management.port>8000</management.port>
+      </metadata>
+      <homePageUrl>http://Peqch:8000/</homePageUrl>
+      <statusPageUrl>http://Peqch:8000/actuator/info</statusPageUrl>
+      <healthCheckUrl>http://Peqch:8000/actuator/health</healthCheckUrl>
+      <vipAddress>currency-exchange</vipAddress>
+      <secureVipAddress>currency-exchange</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1786689830098</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1786689829561</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+    <instance>
+      <instanceId>Peqch:currency-exchange:8001</instanceId>
+      <hostName>Peqch</hostName>
+      <app>CURRENCY-EXCHANGE</app>
+      <ipAddr>192.168.1.40</ipAddr>
+      <status>UP</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8001</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1786689824016</registrationTimestamp>
+        <lastRenewalTimestamp>1786693695704</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>1786689823507</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata>
+        <management.port>8001</management.port>
+      </metadata>
+      <homePageUrl>http://Peqch:8001/</homePageUrl>
+      <statusPageUrl>http://Peqch:8001/actuator/info</statusPageUrl>
+      <healthCheckUrl>http://Peqch:8001/actuator/health</healthCheckUrl>
+      <vipAddress>currency-exchange</vipAddress>
+      <secureVipAddress>currency-exchange</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1786689824016</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1786689823455</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+  </application>
+</applications>
